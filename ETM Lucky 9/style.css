@@ -1,0 +1,39 @@
+body{
+font-family: 'Dosis', sans-serif;
+background-image: url("img/bgimage.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+	  
+}
+button {
+background-color: coral;
+border: 10px;
+color: white;
+padding: 10px 22px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+.button:hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,1), 0 17px 50px 0 rgba(0,0,0,1);
+}
+div{
+width:550px;
+}
+img.c1{
+position: absolute;
+margin-left: -110px;
+margin-top: 10%;
+}
+img.c2{
+margin-top: 10%;
+position: absolute;
+margin-left: -40px;			
+}
+h1.win{
+color: green;
+}
+h1.lose{
+color: red;
+}
